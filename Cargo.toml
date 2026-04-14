@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-broadcast"
-version = "0.1.1"
+version = "0.4.1"
 authors = ["dduutt"]
 description = "Android intent broadcast plugin for Tauri V2"
 repository = "https://github.com/dduutt/tauri-plugin-broadcast"
