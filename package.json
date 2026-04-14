@@ -1,6 +1,6 @@
 {
   "name": "tauri-plugin-broadcast-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "dduutt",
   "description": "Tauri V2 plugin for listening to Android intents and broadcasts.",
   "type": "module",
@@ -19,6 +19,9 @@
     "broadcast",
     "intent"
   ],
+  "tauri-plugin": {
+    "name": "broadcast"
+  },
   "exports": {
     "types": "./dist-js/index.d.ts",
     "import": "./dist-js/index.js",
