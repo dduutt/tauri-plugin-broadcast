@@ -1,6 +1,5 @@
 use serde::de::DeserializeOwned;
 use tauri::{plugin::PluginApi, AppHandle, Runtime};
-use tauri::ipc::Channel;
 
 use crate::models::*;
 
