@@ -15,7 +15,7 @@ pub fn init<R: Runtime, C: DeserializeOwned>(
 pub struct Broadcast<R: Runtime>(AppHandle<R>);
 
 impl<R: Runtime> Broadcast<R> {
-  pub fn register(&self, _payload: RegisterRequest, _handler: Channel<BroadcastEvent>) -> crate::Result<()> {
+  pub fn register(&self, _payload: RegisterPayload) -> crate::Result<()> {
     Ok(())
   }
 
